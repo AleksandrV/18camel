@@ -1,0 +1,5 @@
+
+AddDefaultCharset Off
+<IfModule dir_module>
+AddHandler application/x-httpd-php .php .htm .html
+</IfModule>

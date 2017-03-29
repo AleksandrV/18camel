@@ -1,0 +1,271 @@
+body {
+	background-color: #fff;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style-type: none;
+	margin-bottom: 0;
+}
+i.fa {
+	font-family: fontawesome !important;
+	margin-right: 2px;
+}
+.container {
+	padding: 0;
+}
+.bg1 {
+	background-image: url(../img/bg1.png);
+}
+.bg2 {
+	background-image: url(../img/bg2.png);
+}
+.bg2_1 {
+	background-image: url(../img/bg2_1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+.bg3_1 {
+	background-image: url(../img/bg3.png);
+	background-repeat: no-repeat;
+	background-size: auto
+}
+.bg3 {
+	background-color: #f4f8ff;
+}
+.bg4 {
+	background-color: #fff;
+}
+.bg5 {
+	background-color: #f4f8ff;
+}
+.bg6 {
+	background-color: #3d3e3e;
+}
+.logo {
+	margin: 0.7rem 0;
+
+}
+.phone-number {
+	font-size: 1.3rem;
+	color: #8e3331;
+	display: inline-block;
+	margin-top: 0.7rem;
+	margin-bottom: 0.7rem;
+	margin-left: auto;
+}
+.phone-number span {
+	font-size: 2rem;
+}
+@media (max-width: 575px) {
+	.logo, .phone-number {
+		margin: 0.7rem auto;
+
+	}
+}
+.navbar {
+	padding: 0.8rem 1rem;
+}
+.navbar, .navbar-nav{
+	width: 100%;
+
+}
+.navbar-nav .nav-item .nav-link {
+	color: #fff;
+
+}
+.nav-justified .nav-item {
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
+	text-align: center;
+}
+li.nav-item {
+	border-left:1px solid #fff;
+	line-height: 0.5;
+}
+li.nav-item:first-child {
+	border:none;
+}
+.whiterect {
+	background-color: #fff;
+	border-radius: 6px;
+	display: inline-block;
+	padding: 45px;
+	margin: 91px 0;
+	text-align: center;
+	position: relative;
+}
+.border-bottom {
+	border-bottom: 1px solid #a3b2d0;
+}
+.tblue {
+	color: #336699;
+}
+.tred {
+	color: #ff3333;
+}
+.twhite {
+	color: #ffffff;
+}
+.tlightblue {
+	color: #b4b4b4;
+	font-family: 'OpenSansBold';
+	line-height: 2.6rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.rind {
+	color: #ff4747;
+}
+.bighead {
+	text-transform: uppercase;
+	font-size: 3rem;
+	letter-spacing: -6px;
+	line-height: 3.5rem;
+	margin-bottom: 1rem;
+}
+.midhead {
+	font-size: 2.35rem;
+	letter-spacing: -2px;
+	line-height: 2.7rem;
+	margin-bottom: 2rem;
+}
+.btn {
+	line-height: 2;
+	text-transform: uppercase;
+	padding: 0.5rem 4.2rem;
+	border-radius: 0.5rem;
+}
+.img-teamwork {
+	margin-top: 5rem;
+}
+.distance {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+.indentation-icon {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+}
+.indentation-text {
+	margin-bottom: 5rem;
+}
+.rel {
+	position: relative;
+}
+.before:before {
+	content: url(../img/before.png);
+	position: absolute;
+	left: -6rem;
+	top: -0.6rem;
+}
+.after:after {
+	content:url(../img/after.png); /* with class ModalCarrot ??*/
+	position: absolute;
+	right: -6rem;
+	top: -0.6rem;
+}
+.skills {
+	line-height: 2rem;
+	list-style-type: disc;
+}
+.note{
+	font-size: 0.8rem;
+}
+.form-control {
+	margin-bottom: 0.5rem;
+}
+.social {
+	color: #2072ac;
+}
+.social:hover {
+	color: #207185;
+	cursor: pointer;
+}
+.copyright {
+	font-size: 0.8rem;
+	line-height: 2rem;
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+	li.nav-item {
+		border-left: none;
+	}
+	a.nav-link {
+		text-transform: uppercase;
+	}
+	.tlightblue {
+		line-height: 1.8rem;
+		-ms-flex-align: start;
+		align-items: start;
+	}
+	.indentation-icon {
+		margin-top: 1rem;
+		margin-bottom: .5rem;
+	}
+	.indentation-text {
+		margin-bottom: 1rem;
+	}
+	.midhead {
+		font-size: 1.6rem;
+		letter-spacing: -2px;
+		line-height: 1.6rem;
+		margin-bottom: 2rem;
+	}
+	.distance {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.skills {
+		line-height: 1rem;
+	}
+	.coach {
+		max-width: 70%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.btn {
+		line-height: 1;
+		padding: 0.5rem 1.2rem;
+	}
+	.before:before,
+	.after:after {
+		display: none;
+	}
+	footer .phone-number {
+		font-size: 1rem;
+	}
+	footer .phone-number span {
+		font-size: 1.5rem;
+	}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+	.indentation-icon {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+	.indentation-text {
+		margin-bottom: 2rem;
+	}
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+	.midhead {
+		text-align: center;
+	}
+}
